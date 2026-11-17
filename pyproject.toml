@@ -1,0 +1,17 @@
+[project]
+name = "trabajo-en-equipo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "lenalhidalgo", email = "lenalhidalgo@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+trabajo-en-equipo = "trabajo_en_equipo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
